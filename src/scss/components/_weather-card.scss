@@ -1,0 +1,37 @@
+@import '../variables';
+
+.weather-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: $blue;
+  padding: 10px;
+  border-radius: 15px;
+
+  .add-favourite {
+    img {
+      width: 20px;
+    }
+  }
+
+  .temperature {
+    font-size: 3em;
+  }
+
+  .weather-condition {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.8em;
+    width: 100%;
+
+    span {
+      text-align: center;
+
+      b {
+        font-size: 1.3em;
+      }
+    }
+
+  }
+}
